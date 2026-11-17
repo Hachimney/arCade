@@ -26,8 +26,7 @@ typedef struct AppState {
     const GameDef *launch;    /* game to start in SCR_LAUNCH */
     const GameDef *last_game; /* shown by SCR_RESULT */
     GameResult last_result;
-    char last_board[GAME_BOARD_LEN]; /* high-score table of the last result ("" = the game has one table) */
-    int last_rank; /* 1-based rank of the last score within its table (its board, or the game), 0 if none */
+    int last_rank; /* 1-based rank of the last score within its game, 0 if none */
     unsigned launch_counter;
 } AppState;
 
@@ -52,7 +51,6 @@ typedef enum ScreenPreview {
     PREVIEW_ARCHIVE_END, /* archive open, scrolled to the last game */
     PREVIEW_RESULT,
     PREVIEW_LEADERBOARD,
-    PREVIEW_LEADERBOARD_BOARD, /* a game's tab on one of its boards (needs scores saved under boards) */
     PREVIEW_COUNT
 } ScreenPreview;
 const char *screens_preview_name(int which);
