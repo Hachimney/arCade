@@ -1,6 +1,6 @@
 # Loop Lap - design brief
 
-**Owner:** Leader  **Folder:** `games/loop_lap/`  **Created:** 2026-11-12  **Asal mekanik:** `g07_circlerace` di proyek `simple-games` (hanya aturan; tidak ada kode, gambar, suara, teks atau font yang disalin)
+**Owner:** Nadif & Baim  **Folder:** `games/loop_lap/`  **Created:** 2026-11-12  **Asal mekanik:** `g07_circlerace` di proyek `simple-games` (hanya aturan; tidak ada kode, gambar, suara, teks atau font yang disalin)
 
 ## Hook
 Bolamu berputar sendiri di lingkaran atas; kamu hanya mengatur kecepatan dengan dua pedal supaya tidak menabrak musuh di lingkaran bawah.
